@@ -3,29 +3,28 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Press Start 2P", system-ui;
 }
 
 body{   
     height: 100vh;
-    display: flex;
     overflow-x: hidden;
     background-color: #0D0D0D;
     align-items: center;
     justify-content: center; 
+    display: flex;
     
 }
 
 .conteudo{
     display: flex;
     flex-direction: row; 
-    flex-wrap: wrap;
     justify-content: center;
 }
 
 .conteudo_a1{
     background-color: #FFF8F8;
+    width: 20.8%;
     display: flex ;
     align-items: center ;
     flex-direction: column;
@@ -46,7 +45,7 @@ body{
 }
 
 .conteudo_a1_red_word{
-    color: purple;
+    color: #B40000;
     font-size: 15px;
     padding-bottom: 10px;
 }
@@ -106,6 +105,7 @@ body{
 }
 
 .conteudo_a2{
+    width: 26,7%;
     display: flex ;
     flex-direction: column;
     align-items: center;
@@ -121,6 +121,7 @@ body{
 }
 
 .conteudo_a3{
+    width: 26,7%;
     display: flex ;
     flex-direction: column;
     align-items: center;
@@ -138,6 +139,7 @@ body{
 
 
 .conteudo_a4{
+    width: 26,7%;
     display: flex ;
     flex-direction: column;
     align-items: center;
@@ -152,15 +154,4 @@ body{
 .red_word{
     padding-top: 25px;
     color: #D86060;
-}
-
-@media (max-width: 768px) {
-  .conteudo_a1,
-  .conteudo_a2,
-  .conteudo_a3,
-  .conteudo_a4 {
-    width: 90%; /* Ocupa quase toda a tela no mobile */
-    margin-bottom: 20px;
-    height: auto; /* Evita forçar 100vh em telas pequenas */
-  }
 }
