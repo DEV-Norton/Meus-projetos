@@ -8,6 +8,7 @@
 
 body{   
     height: 100vh;
+    display: flex;
     overflow-x: hidden;
     background-color: #0D0D0D;
     align-items: center;
