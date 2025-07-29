@@ -153,3 +153,42 @@ body{
     padding-top: 25px;
     color: #D86060;
 }
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .conteudo {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .conteudo_a1,
+  .conteudo_a2,
+  .conteudo_a3,
+  .conteudo_a4 {
+    width: 90%;
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .conteudo_a1_miniimg {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .withe_word_number_Verde,
+  .withe_word_number_Azul,
+  .withe_word_number_Vermelho {
+    width: 100%;
+  }
+
+  .withe_word {
+    text-align: center;
+  }
+}
